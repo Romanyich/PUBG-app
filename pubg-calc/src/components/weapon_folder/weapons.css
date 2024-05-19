@@ -1,0 +1,47 @@
+.weapons {
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 1600px;
+    position: relative;
+    z-index: 1;
+}
+
+.weapons h1{
+    position: absolute;
+    top: 25px;
+    z-index: 2;
+}
+
+.weapons_types_container {
+    position: absolute;
+    top: 100px;
+    z-index: 2;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    padding: 10px 20px;
+}
+
+.weapon_type {  
+    border: none;
+    font-size: 30px;
+    font-weight: 700;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #777;
+    transition: background-color 0.3s;
+}
+
+a:hover {
+    color: rgb(132, 48, 48);
+}

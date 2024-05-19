@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  --background_color: white;
+  --text_color: black;
+  --container_background_color: rgb(226, 217, 217);
+  overflow-x:hidden;
+}
+
+body.dark {
+  --background_color: black;
+  --text_color: white;
+  --container_background_color: #222;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: medium;
+  font-weight: 700;
+  border: none;
+  color: var(--text_color);
+  background: #f6bf00;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+a {
+  color: var(--text_color);
+}
+
+h1 {
+  color: var(--text_color);
+  font-size: xxx-large;
+  font-weight: 700;
+}
+
