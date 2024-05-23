@@ -1,8 +1,9 @@
 import './App.css'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Header from './components/header_folder/header'
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
+import NavBar from './components/nav_bar/nav_bar'
+import WeaponsRoutes from './components/weapons_routes/weapons_routes'
 import Pubg_art from './components/main_screen/pubg_art'
-import Weapons from './components/weapon_folder/weapons'
 import Calculator from './components/calculator_folder/calculator'
 
 function App() {
@@ -10,15 +11,12 @@ function App() {
     <BrowserRouter>
       <section className='wrapper'>
         <Header />
-        <nav className='buttons_container'>
-          <Link to='/weapons' className='nav_link' >Weapons</Link>
-          <Link to='/calculator' className='nav_link'>Damage calculator</Link>   
-        </nav>
+        <NavBar />
 
         <Routes>
           <Route path="/" element={<Pubg_art />} />
-          <Route path='/weapons' element={<Weapons />} />
-          <Route path='/calculator' element={<Calculator />} />
+          <Route path="/weapons/*" element={<WeaponsRoutes />} />
+          <Route path="/calculator" element={<Calculator />} />
         </Routes>
       </section>
     </BrowserRouter>

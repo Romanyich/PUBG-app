@@ -1,0 +1,109 @@
+{"AssaultRifles": [
+    {
+        "id": 1,
+        "name": "M416",
+        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-m416.png"
+    },
+    {
+        "id": 2,
+        "name": "M16A4",
+        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-m16a4.png"
+    },
+    {
+        "id": 3,
+        "name": "SCAR-L",
+        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-scar-l.png"
+    },
+    {
+        "id": 4,
+        "name": "G36C",
+        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-g36c.png"
+    },
+    {
+        "id": 5,
+        "name": "QBZ95",
+        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-qbz95.png"
+    },
+    {
+        "id": 6,
+        "name": "K2",
+        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-k2.png"
+    },
+    {
+        "id": 7,
+        "name": "AUG A3",
+        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-aug_a3.png"
+    },
+    {
+        "id": 8,
+        "name": "FAMAS",
+        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-famas_g2.png"
+    },
+    {
+        "id": 9,
+        "name": "AKM",
+        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-akm.png"
+    },
+    {
+        "id": 10,
+        "name": "BERYL M762",
+        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-beryl_m762.png"
+    },
+    {
+        "id": 11,
+        "name": "Mk47 Mutant",
+        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-mk47_mutant.png"
+    },
+    {
+        "id": 12,
+        "name": "Groza",
+        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-groza.png"
+    },
+    {
+        "id": 13,
+        "name": "ACE32",
+        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-ace32.png"
+    }
+],
+"DesignatedMarksmanRifle": [
+    {
+        "id": 1,
+        "name": "Mini14",
+        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-mini14.png"
+    },
+    {
+        "id": 2,
+        "name": "QBU88",
+        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-qbu88.png"
+    },
+    {
+        "id": 3,
+        "name": "Mk12",
+        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-mk12.png"
+    },
+    {
+        "id": 4,
+        "name": "SKS",
+        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-sks.png"
+    },
+    {
+        "id": 5,
+        "name": "SLR",
+        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-slr.png"
+    },
+    {
+        "id": 6,
+        "name": "Mk14",
+        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-mk14.png"
+    },
+    {
+        "id": 7,
+        "name": "VSS",
+        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-vss.png"
+    },
+    {
+        "id": 8,
+        "name": "Dragunov",
+        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-dragunov.png"
+    }
+]}

@@ -1,35 +1,21 @@
 .weapons {
     position: relative;
-    background-size: contain;
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-img {
-    width: 1600px;
-    position: relative;
+    height: 2160px;
+    background-image: url('./doubled_back.jpg');
+    background-color: var(--background_color);
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;
+    padding: 16px;
+    box-sizing: border-box;
     z-index: 1;
 }
 
-.weapons h1{
-    position: absolute;
-    top: 25px;
-    z-index: 2;
-}
-
 .weapons_types_container {
-    position: absolute;
-    top: 100px;
-    z-index: 2;
     display: flex;
-    flex-direction: row;
-    align-items: center;
     justify-content: center;
-    gap: 70px;
-    padding: 10px 20px;
+    gap: 5%;
+    margin-top: 3%;
 }
 
 .weapon_type {  
@@ -38,10 +24,10 @@ img {
     font-weight: 700;
     border-radius: 5px;
     cursor: pointer;
-    color: #777;
+    color: var(--weapon_type_color);
     transition: background-color 0.3s;
 }
 
 a:hover {
-    color: rgb(132, 48, 48);
+    color: var(--hover_effect);
 }
