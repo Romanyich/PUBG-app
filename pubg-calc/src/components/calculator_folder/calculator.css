@@ -1,0 +1,70 @@
+.calculator {
+    background-color: var(--text_color);
+    display: flex;
+    justify-content: space-between;
+}
+  
+.figure img{
+    width: 450px;
+    height: 750px;
+    transform: scale(.88);
+}
+
+.calc_container {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+}
+
+.armor_container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 2%;
+}
+
+.armor_container img{
+    width: 60px;
+    height: 60px;
+    border: 1px solid var(--weapon_cell_color);
+    background-color: var(--gun_background_color);
+}
+
+.helm_container, .chest_container {
+    display: flex;
+    gap: 5px;
+}
+
+.helm_container img:first-child, .chest_container img:first-child {
+    opacity: 0.75;
+}
+
+.guns {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
+    gap: 10px;
+}
+
+.gun {
+    border: 1px solid var(--weapon_cell_color);
+    background-color: var(--gun_background_color);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.gun p {
+    font-size: 80%;
+    margin: 0 5%;
+    font-weight: 500;
+}
+  
+.guns img {
+    width: 110%;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+  
+.guns img:hover {
+    transform: scale(1.2);
+}

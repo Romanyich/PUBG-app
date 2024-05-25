@@ -1,8 +1,12 @@
+h1 {
+    color: var(--modal);
+}
+
 .modal {
     position: fixed;
     z-index: 10;
     left: 0;
-    top: 0;
+    top: 5%;
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.75);
@@ -49,5 +53,19 @@
 }
 
 .modal-title {
+    color: var(--weapon_cell_color);
     text-align: center;
+}
+
+.modal-description {
+    border: black solid 1px;
+    background-color: var(--cell_border);
+    border-radius: 5px;
+    padding: 2%;
+    color: var(--modal);
+    text-align: justify;
+}
+
+.modal-description:hover {
+    border-color: var(--cell_background);
 }

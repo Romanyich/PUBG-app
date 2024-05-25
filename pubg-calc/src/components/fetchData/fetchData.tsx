@@ -6,6 +6,7 @@ interface IWeapon {
     id: number;
     name: string;
     image: string;
+    description: string
 }
 
 interface FetchDataProps {
@@ -45,6 +46,7 @@ function FetchData({ url }: FetchDataProps) {
                 <Modal show={!!selectedWeapon} onClose={handleCloseModal}>
                     <h1 className='modal-title'>{selectedWeapon.name}</h1>
                     <img src={selectedWeapon.image} alt={selectedWeapon.name} className='modal-image'/>
+                    <p className="modal-description">{selectedWeapon.description}</p>
                 </Modal>
             )}
         </>

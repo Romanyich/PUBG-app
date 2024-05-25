@@ -2,108 +2,361 @@
     {
         "id": 1,
         "name": "M416",
-        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-m416.png"
+        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-m416.png",
+        "description": "The HK416, (referred to as the M416 in-game) is an assault rifle/carbine type weapon. A tactical rifle based on the discontinued XM8-project as an improvement of both the M16/AR-15 and the M4 Carbine, it integrates the short-stroke gas piston system from the G36 rifle for less recoil and increased reliability. Adopted by the militaries of several countries across the world, it proves very popular due to the number of attachments it can accept, allowing a great amount of flexibility.",
+        "damage": "40"
     },
     {
         "id": 2,
         "name": "M16A4",
-        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-m16a4.png"
+        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-m16a4.png",
+        "damage": "43"
     },
     {
         "id": 3,
         "name": "SCAR-L",
-        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-scar-l.png"
+        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-scar-l.png",
+        "damage": "42"
     },
     {
         "id": 4,
         "name": "G36C",
-        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-g36c.png"
+        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-g36c.png",
+        "damage": "41"
     },
     {
         "id": 5,
         "name": "QBZ95",
-        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-qbz95.png"
+        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-qbz95.png",
+        "damage": "42"
     },
     {
         "id": 6,
         "name": "K2",
-        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-k2.png"
+        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-k2.png",
+        "damage": "41"
     },
     {
         "id": 7,
-        "name": "AUG A3",
-        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-aug_a3.png"
+        "name": "AUG",
+        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-aug_a3.png",
+        "damage": "41"
     },
     {
         "id": 8,
         "name": "FAMAS",
-        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-famas_g2.png"
+        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-famas_g2.png",
+        "damage": "39"
     },
     {
         "id": 9,
         "name": "AKM",
-        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-akm.png"
+        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-akm.png",
+        "damage": "47"
     },
     {
         "id": 10,
         "name": "BERYL M762",
-        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-beryl_m762.png"
+        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-beryl_m762.png",
+        "damage": "44"
     },
     {
         "id": 11,
         "name": "Mk47 Mutant",
-        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-mk47_mutant.png"
+        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-mk47_mutant.png",
+        "damage": "49"
     },
     {
         "id": 12,
         "name": "Groza",
-        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-groza.png"
+        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-groza.png",
+        "damage": "47"
     },
     {
         "id": 13,
         "name": "ACE32",
-        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-ace32.png"
+        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-ace32.png",
+        "damage": "43"
     }
 ],
 "DesignatedMarksmanRifle": [
     {
-        "id": 1,
+        "id": 14,
         "name": "Mini14",
-        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-mini14.png"
+        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-mini14.png",
+        "damage": "48"
     },
     {
-        "id": 2,
-        "name": "QBU88",
-        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-qbu88.png"
+        "id": 15,
+        "name": "QBU",
+        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-qbu88.png",
+        "damage": "48"
     },
     {
-        "id": 3,
+        "id": 16,
         "name": "Mk12",
-        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-mk12.png"
+        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-mk12.png",
+        "damage": "50"
     },
     {
-        "id": 4,
+        "id": 17,
         "name": "SKS",
-        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-sks.png"
+        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-sks.png",
+        "damage": "53"
     },
     {
-        "id": 5,
+        "id": 18,
         "name": "SLR",
-        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-slr.png"
+        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-slr.png",
+        "damage": "56"
     },
     {
-        "id": 6,
+        "id": 19,
         "name": "Mk14",
-        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-mk14.png"
+        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-mk14.png",
+        "damage": "61"
     },
     {
-        "id": 7,
+        "id": 20,
         "name": "VSS",
-        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-vss.png"
+        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-vss.png",
+        "damage": "43"
     },
     {
-        "id": 8,
+        "id": 21,
         "name": "Dragunov",
-        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-dragunov.png"
+        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-dragunov.png",
+        "damage": "60"
+    }
+],
+"SubMachineGuns": [
+    {
+        "id": 22,
+        "name": "Tommy Gun",
+        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-tommy_gun.png",
+        "damage": "40"
+    },
+    {
+        "id": 23,
+        "name": "UMP45",
+        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-ump45.png",
+        "damage": "41"
+    },
+    {
+        "id": 24,
+        "name": "Micro UZI",
+        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-micro_uzi.png",
+        "damage": "26"
+    },
+    {
+        "id": 25,
+        "name": "Vector",
+        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-vector.png",
+        "damage": "31"
+    },
+    {
+        "id": 26,
+        "name": "PP-19 Bizon",
+        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-pp19_bizon.png",
+        "damage": "36"
+    },
+    {
+        "id": 27,
+        "name": "MP5K",
+        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-mp5k.png",
+        "damage": "33"
+    },
+    {
+        "id": 28,
+        "name": "MP9",
+        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-mp9.png",
+        "damage": "31"
+    },
+    {
+        "id": 29,
+        "name": "P90",
+        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-p90.png",
+        "damage": "35"
+    },
+    {
+        "id": 30,
+        "name": "JS9",
+        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-js9.png",
+        "damage": "32"
+    }
+],
+"SniperRifles": [
+    {
+        "id": 31,
+        "name": "Kar98k",
+        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-kar98k.png",
+        "damage": "79"
+    },
+    {
+        "id": 32,
+        "name": "Mosin Nagant",
+        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-mosin_nagant.png",
+        "damage": "79"
+    },
+    {
+        "id": 33,
+        "name": "M24",
+        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-m24.png",
+        "damage": "75"
+    },
+    {
+        "id": 34,
+        "name": "AWM",
+        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-awm.png",
+        "damage": "105"
+    },
+    {
+        "id": 35,
+        "name": "Win94",
+        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-win94.png",
+        "damage": "66"
+    },
+    {
+        "id": 36,
+        "name": "Lynx AMR",
+        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-lynx_amr.png",
+        "damage": "118"
+    }
+],
+"Shotgun": [
+    {
+        "id": 37,
+        "name": "S12K",
+        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-s12k.png",
+        "damage": "24"
+    },
+    {
+        "id": 38,
+        "name": "S1897",
+        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-s1897.png",
+        "damage": "26"
+    },
+    {
+        "id": 39,
+        "name": "S686",
+        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-s686.png",
+        "damage": "26"
+    },
+    {
+        "id": 40,
+        "name": "DBS",
+        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-dbs.png",
+        "damage": "26"
+    },
+    {
+        "id": 41,
+        "name": "Sawed-Off",
+        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-sawed_off.png",
+        "damage": "21"
+    },
+    {
+        "id": 42,
+        "name": "O12",
+        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-o12.png",
+        "damage": "100"
+    }
+],
+"Handgun": [
+    {
+        "id": 43,
+        "name": "P18C",
+        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-p18c.png",
+        "damage": "23"
+    },
+    {
+        "id": 44,
+        "name": "P92",
+        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-p92.png",
+        "damage": "34"
+    },
+    {
+        "id": 45,
+        "name": "Skorpion",
+        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-skorpion.png",
+        "damage": "22"
+    },
+    {
+        "id": 46,
+        "name": "P1911",
+        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-p1911.png",
+        "damage": "42"
+    },
+    {
+        "id": 47,
+        "name": "R45",
+        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-r45.png",
+        "damage": "64"
+    },
+    {
+        "id": 48,
+        "name": "Deagle",
+        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-deagle.png",
+        "damage": "62"
+    },
+    {
+        "id": 49,
+        "name": "R1895",
+        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-r1895.png",
+        "damage": "64"
+    }
+],
+"Calculator": [
+    {
+        "id": 50,
+        "name": "figure",
+        "image": "https://battlegrounds.party/weapons/img/figure.png"
+    },
+    {
+        "id": 51,
+        "name": "helmet 0",
+        "image": "https://battlegrounds.party/weapons/img/Gray_cross_out.svg",
+        "reduction": 0
+    },
+    {
+        "id": 52,
+        "name": "helmet 1",
+        "image": "https://pubgmobileknowhow.home.blog/wp-content/uploads/2018/09/helm-1.png",
+        "reduction": 30
+    }
+    ,{
+        "id": 53,
+        "name": "helmet 2",
+        "image": "https://pubgmobileknowhow.home.blog/wp-content/uploads/2018/09/helm-2.png",
+        "reduction": 40
+    },
+    {
+        "id": 54,
+        "name": "helmet 3",
+        "image": "https://pubgmobileknowhow.home.blog/wp-content/uploads/2018/09/helm-3.png",
+        "reduction": 55
+    },
+    {
+        "id": 55,
+        "name": "armor 0",
+        "image": "https://battlegrounds.party/weapons/img/Gray_cross_out.svg",
+        "reduction": 0
+    },
+    {
+        "id": 56,
+        "name": "armor 1",
+        "image": "https://pubgmobileknowhow.home.blog/wp-content/uploads/2018/09/vest-lv11.png",
+        "reduction": 30
+    },
+    {
+        "id": 57,
+        "name": "armor 2",
+        "image": "https://pubgmobileknowhow.home.blog/wp-content/uploads/2018/09/vest-2.png",
+        "reduction": 40
+    },
+    {
+        "id": 58,
+        "name": "armor 3",
+        "image": "https://pubgmobileknowhow.home.blog/wp-content/uploads/2018/09/vest-3.png",
+        "reduction": 55
     }
 ]}

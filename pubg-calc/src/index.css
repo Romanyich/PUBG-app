@@ -3,23 +3,20 @@
   padding: 0;
 }
 
-/* body {
-  --background_color: white;
-  --text_color: black;
-  --container_background_color: rgb(226, 217, 217);
-  overflow-x:hidden;
-} */
-
 body {
+  font-family: 'Roboto', sans-serif;
   --background_color: black;
   --text_color: white;
   --container_background_color: #222;
   --weapon_type_color: #777;
   --weapon_cell_color: #888;
+  --calculator_background: #999;
   --button_color:#f6bf00;
   --hover_effect: rgb(132, 48, 48);
   --cell_background: #333;
   --cell_border: #444;
+  --modal: #C0C0C0;
+  --gun_background_color: rgb(225, 225, 225);
 }
 
 button {
@@ -37,9 +34,13 @@ a {
   color: var(--text_color);
 }
 
+p {
+  font-size: 1em;
+  font-weight: 400;
+}
+
 h1 {
   color: var(--text_color);
   font-size: xxx-large;
   font-weight: 700;
 }
-

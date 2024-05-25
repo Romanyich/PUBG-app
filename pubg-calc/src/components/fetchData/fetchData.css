@@ -10,7 +10,7 @@
 }
 
 .weapon_cell h1 {
-    color: #716d67;
+    color: var(--weapon_cell_color);
 }
 
 .weapon_cell > div {
