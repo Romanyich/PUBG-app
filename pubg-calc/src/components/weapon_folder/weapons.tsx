@@ -1,37 +1,26 @@
-import './weapons.css'
-import {Routes, Route, Link } from 'react-router-dom'
-import AR from './AssualtRifle/AR'
-import DMR from './DesignatedMarksmanRifle/DMR'
-import SMG from './SubmachineGun/SMG'
-import SR from './SniperRifle/SR'
-import ShotGun from './ShotGun/ShotGun'
-import HandGun from './HandGun/HandGun'
-import Miramar from './back.jpg'
+import './weapons.css';
+import { Link, Outlet, useLocation } from 'react-router-dom';
 
 function Weapons() {
-    return(
-        <section className='weapons'>
-            <img src={Miramar}></img>
-            <h1>Weapons</h1>
-            <div className='weapons_types_container'>
-                <Link to ='/weapons/AR' className='weapon_type'>AR</Link>
-                <Link to ='/DMR' className='weapon_type'>DMR</Link>
-                <Link to ='/SMG' className='weapon_type'>SMG</Link>
-                <Link to ='/SR' className='weapon_type'>SR</Link>
-                <Link to ='/Shotgun' className='weapon_type'>Shotgun</Link>
-                <Link to ='/Handgun' className='weapon_type'>Handgun</Link>
-            </div>
+  const location = useLocation();
 
-            <Routes>
-                <Route path='/AR' element={<AR />} />
-                <Route path='/DMR' element={<DMR />} />
-                <Route path='/SMG' element={<SMG />} />
-                <Route path='/SR' element={<SR />} />
-                <Route path='/Shotgun' element={<ShotGun />} />
-                <Route path='/Handgun' element={<HandGun />} />
-            </Routes>
-        </section>
-    )
+  const isActiveLink = (path: string) => {
+    return location.pathname === path ? 'active' : '';
+  };
+
+  return (
+    <section className="weapons">
+      <div className="weapons_types_container">
+        <Link to='/weapons/AR' className={`weapon_type ${isActiveLink('/weapons/AR')}`}>AR</Link>
+        <Link to='/weapons/DMR' className={`weapon_type ${isActiveLink('/weapons/DMR')}`}>DMR</Link>
+        <Link to='/weapons/SMG' className={`weapon_type ${isActiveLink('/weapons/SMG')}`}>SMG</Link>
+        <Link to='/weapons/SR' className={`weapon_type ${isActiveLink('/weapons/SR')}`}>SR</Link>
+        <Link to='/weapons/Shotgun' className={`weapon_type ${isActiveLink('/weapons/Shotgun')}`}>Shotgun</Link>
+        <Link to='/weapons/Handgun' className={`weapon_type ${isActiveLink('/weapons/Handgun')}`}>Handgun</Link>
+      </div>
+      <Outlet />
+    </section>
+  );
 }
 
-export default Weapons
+export default Weapons;

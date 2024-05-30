@@ -1,6 +1,10 @@
+import FetchData from '../../fetchData/weaponsGrid'
+
 function AR() {
     return(
-        <h1>cool story</h1>
+        <>
+            <FetchData url="http://localhost:3001/AssaultRifles" />
+        </>
     )
 }
 

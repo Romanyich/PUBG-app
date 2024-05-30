@@ -4,16 +4,23 @@
 }
 
 body {
-  --background_color: white;
-  --text_color: black;
-  --container_background_color: rgb(226, 217, 217);
-  overflow-x:hidden;
-}
-
-body.dark {
+  font-family: 'Roboto', sans-serif;
   --background_color: black;
   --text_color: white;
   --container_background_color: #222;
+  --weapon_type_color: #777;
+  --weapon_cell_color: #888;
+  --calculator_background: #999;
+  --button_color:#f6bf00;
+  --hover_effect: rgb(65, 97, 101);
+  --cell_background: #333;
+  --cell_border: #444;
+  --modal: #C0C0C0;
+  --gun_background_color: rgb(225, 225, 225);
+  --selected: rgb(151, 192, 239);
+  --cyan: rgb(28, 211, 208);
+  --orange: rgb(255, 166, 0);
+  --purple: #f0f;
 }
 
 button {
@@ -22,13 +29,23 @@ button {
   font-weight: 700;
   border: none;
   color: var(--text_color);
-  background: #f6bf00;
+  background: var(--button_color);
   cursor: pointer;
   transition: background-color 0.3s;
 }
 
+button:hover {
+  color: var(--hover_effect);
+}
+
 a {
   color: var(--text_color);
+  text-decoration: none;
+}
+
+p {
+  font-size: 1em;
+  font-weight: 400;
 }
 
 h1 {
@@ -36,4 +53,3 @@ h1 {
   font-size: xxx-large;
   font-weight: 700;
 }
-

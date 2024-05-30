@@ -1,0 +1,184 @@
+.calculator {
+  background-color: var(--text_color);
+  display: flex;
+  justify-content: space-between;
+}
+
+.figure img{
+  width: 450px;
+  height: 750px;
+  transform: scale(.88);
+}
+
+.figure {
+  position: relative;
+}
+
+.damage {
+  position: absolute;
+  font-size: 14px;
+  font-weight: 700;
+  width: 31px;
+  text-align: center;
+}
+
+sup {
+  font-size: 0.7em;
+  vertical-align: sub;
+}
+
+.head, .neck {
+  color: var(--purple);
+}
+
+.shoulder, .chest, .up_stomach, .low_stomach, .groin {
+  color: var(--cyan);
+}
+
+.up_arm, .low_arm, .hand, .thigh, .calf, .foot {
+  color: var(--orange);
+}
+
+.head {
+  top: 50px;
+  right: 160px;
+}
+
+.neck {
+  top: 113px;
+  right: 155px;
+}
+
+.chest {
+  top: 230px;
+  right: 255px;
+}
+
+.up_stomach {
+  top: 290px;
+  right: 255px;
+}
+
+.low_stomach {
+  top: 335px;
+  right: 255px;
+}
+
+.groin {
+  top: 365px;
+  right: 255px;
+}
+
+.shoulder {
+  top: 150px;
+  right: 155px;
+}
+
+.up_arm {
+  top: 202px;
+  right: 110px;
+}
+
+.low_arm {
+  top: 277px;
+  right: 85px;
+}
+
+.hand {
+  top: 333px;
+  right: 65px;
+}
+
+.thigh {
+  top: 433px;
+  right: 110px;
+}
+
+.calf {
+  top: 523px;
+  right: 105px;
+}
+
+.foot {
+  top: 620px;
+  right: 115px;
+}
+
+.calc_container {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  margin: 2%;
+}
+
+.armor_container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 2%;
+}
+
+.armor_container img{
+  width: 60px;
+  height: 60px;
+  border: 1px solid var(--weapon_cell_color);
+  background-color: var(--gun_background_color);
+}
+
+.helm_container, .chest_container {
+  display: flex;
+  gap: 5px;
+}
+
+.helm_container img:first-child, .chest_container img:first-child {
+  opacity: 0.75;
+}
+
+.guns {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
+  gap: 10px;
+}
+
+.gun {
+  border: 1px solid var(--weapon_cell_color);
+  background-color: var(--gun_background_color);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.gun p {
+  font-size: 80%;
+  margin: 0 5%;
+  font-weight: 500;
+}
+
+.guns img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.guns img:hover {
+  transform: scale(1.2);
+}
+
+/* <--------------------> */
+
+.armor_container img,
+.guns .gun {
+outline: none;
+}
+
+.armor_container img.selected,
+.guns .gun.selected {
+background-color: var(--selected);
+opacity: 0.5;
+border: 2px solid var(--weapon_cell_color);
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.armor_container img.selected:hover,
+.guns .gun.selected:hover {
+border: 2px solid var(--weapon_cell_color);
+box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+}

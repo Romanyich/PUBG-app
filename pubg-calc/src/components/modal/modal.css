@@ -1,0 +1,67 @@
+h1 {
+    color: var(--modal);
+}
+
+.modal {
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    top: 5%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal_content {
+    background-color: var(--cell_background);
+    margin: 15% auto;
+    padding: 15px;
+    border: 1px solid var(--cell_border);
+    width: 80%;
+    max-width: 600px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold;
+    color: var(--text_color);
+}
+
+.close:hover {
+    color: var(--hover_effect);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-name {
+    margin: 0 auto;
+}
+
+.modal-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    border: 1px solid var(--background_color);
+}
+
+.modal-title {
+    color: var(--weapon_cell_color);
+    text-align: center;
+}
+
+.modal-description {
+    border: 1px solid var(--background_color);
+    background-color: var(--cell_border);
+    border-radius: 5px;
+    padding: 2%;
+    color: var(--modal);
+    text-align: justify;
+}

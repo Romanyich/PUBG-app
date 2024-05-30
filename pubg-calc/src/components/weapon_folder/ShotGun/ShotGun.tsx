@@ -1,13 +1,8 @@
+import FetchData from '../../fetchData/weaponsGrid'
+
 function ShotGun() {
     return(
-        <>
-        {/* {listAR.map((obj) => {
-            <section key={obj.id} className="guns">
-                <h1>{obj.name}</h1>
-            </section>
-        })} */}
-        <h1>ShotGun</h1>
-        </>
+        <FetchData url="http://localhost:3001/Shotgun" />
     )
 }
 
