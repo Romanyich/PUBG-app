@@ -1,19 +1,34 @@
-import './App.css'
-import { BrowserRouter, Routes, Route, Navigate, useLocation } from 'react-router-dom'
-import Header from './components/header_folder/header'
-import NavBar from './components/nav_bar/nav_bar'
-import Weapons from './components/weapon_folder/weapons'
-import Pubg_art from './components/main_screen/pubg_art'
-import Calculator from './components/calculator_folder/calculator'
-import AR from './components/weapon_folder/AssualtRifle/AR'
-import DMR from './components/weapon_folder/DesignatedMarksmanRifle/DMR'
-import SMG from './components/weapon_folder/SubmachineGun/SMG'
-import SR from './components/weapon_folder/SniperRifle/SR'
-import ShotGun from './components/weapon_folder/ShotGun/ShotGun'
-import HandGun from './components/weapon_folder/HandGun/HandGun'
+import './App.css';
+import { BrowserRouter, Routes, Route, Navigate, useLocation } from 'react-router-dom';
+import { useState, useEffect } from 'react';
+import Header from './components/header_folder/header';
+import NavBar from './components/nav_bar/nav_bar';
+import Weapons from './components/weapon_folder/weapons';
+import Pubg_art from './components/main_screen/pubg_art';
+import Calculator from './components/calculator_folder/calculator';
+import AR from './components/weapon_folder/AssualtRifle/AR';
+import DMR from './components/weapon_folder/DesignatedMarksmanRifle/DMR';
+import SMG from './components/weapon_folder/SubmachineGun/SMG';
+import SR from './components/weapon_folder/SniperRifle/SR';
+import ShotGun from './components/weapon_folder/ShotGun/ShotGun';
+import HandGun from './components/weapon_folder/HandGun/HandGun';
 
 function AppContent() {
-  const location = useLocation()
+  const location = useLocation();
+
+  const [loggedInUser, setLoggedInUser] = useState<string | null>(null);
+
+  useEffect(() => {
+    const user = localStorage.getItem('loggedInUser');
+    if (user) {
+      const parsedUser = JSON.parse(user);
+      setLoggedInUser(parsedUser.username);
+    }
+  }, []);
+
+  const handleLogin = (username: string | null) => {
+    setLoggedInUser(username);
+  };
 
   const isWeaponRoute = [
     '/weapons/AR',
@@ -22,14 +37,14 @@ function AppContent() {
     '/weapons/SR',
     '/weapons/Shotgun',
     '/weapons/Handgun',
-  ].includes(location.pathname)
+  ].includes(location.pathname);
 
   return (
     <section className='wrapper'>
-      <Header />
+      <Header onLogin={handleLogin} />
       <NavBar />
       <Routes>
-        <Route path="/" element={<Pubg_art />} />
+        <Route path="/" element={<Pubg_art username={loggedInUser} />} />
         <Route path="/weapons" element={<Weapons />}>
           {!isWeaponRoute && <Route path="" element={<Navigate to="AR" />} />}
           <Route path="AR" element={<AR />} />
@@ -42,7 +57,7 @@ function AppContent() {
         <Route path="/calculator" element={<Calculator />} />
       </Routes>
     </section>
-  )
+  );
 }
 
 function App() {
@@ -50,7 +65,7 @@ function App() {
     <BrowserRouter>
       <AppContent />
     </BrowserRouter>
-  )
+  );
 }
 
-export default App
+export default App;

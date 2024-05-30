@@ -26,7 +26,7 @@ function Modal({ show, onClose, children }: ModalProps) {
 
     return (
         <div className="modal">
-            <div className="modal-content" onClick={e => e.stopPropagation()}>
+            <div className="modal_content" onClick={e => e.stopPropagation()}>
                 <span className="close" onClick={onClose}>&times;</span>
                 {children}
             </div>

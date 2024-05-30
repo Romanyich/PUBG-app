@@ -1,4 +1,4 @@
-import FetchData from '../../fetchData/fetchData'
+import FetchData from '../../fetchData/weaponsGrid'
 
 function AR() {
     return(

@@ -15,10 +15,10 @@ h1 {
     align-items: center;
 }
 
-.modal-content {
+.modal_content {
     background-color: var(--cell_background);
     margin: 15% auto;
-    padding: 20px;
+    padding: 15px;
     border: 1px solid var(--cell_border);
     width: 80%;
     max-width: 600px;
@@ -36,7 +36,7 @@ h1 {
 }
 
 .close:hover {
-    color: var(--container_background_color);
+    color: var(--hover_effect);
     text-decoration: none;
     cursor: pointer;
 }
@@ -48,8 +48,8 @@ h1 {
 .modal-image {
     max-width: 100%;
     height: auto;
-    margin-top: 20px;
-    border-radius: 8px;
+    border-radius: 5px;
+    border: 1px solid var(--background_color);
 }
 
 .modal-title {
@@ -58,14 +58,10 @@ h1 {
 }
 
 .modal-description {
-    border: black solid 1px;
+    border: 1px solid var(--background_color);
     background-color: var(--cell_border);
     border-radius: 5px;
     padding: 2%;
     color: var(--modal);
     text-align: justify;
-}
-
-.modal-description:hover {
-    border-color: var(--cell_background);
 }

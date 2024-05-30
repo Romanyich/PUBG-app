@@ -1,8 +1,8 @@
-import FetchData from '../../fetchData/fetchData'
+import FetchData from '../../fetchData/weaponsGrid'
 
 function HandGun() {
     return(
-        <h1>HandGun</h1>
+        <FetchData url="http://localhost:3001/Handgun" />
     )
 }
 

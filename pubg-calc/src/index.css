@@ -12,11 +12,15 @@ body {
   --weapon_cell_color: #888;
   --calculator_background: #999;
   --button_color:#f6bf00;
-  --hover_effect: rgb(132, 48, 48);
+  --hover_effect: rgb(65, 97, 101);
   --cell_background: #333;
   --cell_border: #444;
   --modal: #C0C0C0;
   --gun_background_color: rgb(225, 225, 225);
+  --selected: rgb(151, 192, 239);
+  --cyan: rgb(28, 211, 208);
+  --orange: rgb(255, 166, 0);
+  --purple: #f0f;
 }
 
 button {
@@ -30,8 +34,13 @@ button {
   transition: background-color 0.3s;
 }
 
+button:hover {
+  color: var(--hover_effect);
+}
+
 a {
   color: var(--text_color);
+  text-decoration: none;
 }
 
 p {

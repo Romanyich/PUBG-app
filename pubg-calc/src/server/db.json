@@ -1,362 +1,444 @@
-{"AssaultRifles": [
+{
+  "AssaultRifles": [
     {
-        "id": 1,
-        "name": "M416",
-        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-m416.png",
-        "description": "The HK416, (referred to as the M416 in-game) is an assault rifle/carbine type weapon. A tactical rifle based on the discontinued XM8-project as an improvement of both the M16/AR-15 and the M4 Carbine, it integrates the short-stroke gas piston system from the G36 rifle for less recoil and increased reliability. Adopted by the militaries of several countries across the world, it proves very popular due to the number of attachments it can accept, allowing a great amount of flexibility.",
-        "damage": "40"
+      "id": "1",
+      "name": "M416",
+      "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-m416.png",
+      "description": "The HK416, (referred to as the M416 in-game) is an assault rifle/carbine type weapon in BATTLEGROUNDS. A tactical rifle based on the discontinued XM8-project as an improvement of both the M16/AR-15 and the M4 Carbine, it integrates the short-stroke gas piston system from the G36 rifle for less recoil and increased reliability. Adopted by the militaries of several countries across the world, in BATTLEGROUNDS it proves very popular due to the number of attachments it can accept, allowing a great amount of flexibility.",
+      "damage": "40"
     },
     {
-        "id": 2,
-        "name": "M16A4",
-        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-m16a4.png",
-        "damage": "43"
+      "id": "2",
+      "name": "M16A4",
+      "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-m16a4.png",
+      "description": "The M16A4 is an assault rifle type weapon in BATTLEGROUNDS. Replacing the US military's M14 as its standard service rifle, the first M16s were introduced in 1964 during the Vietnam War where they quickly grew an infamous reputation for reliablity problems, amongst other issues. Feedback from battlefield experience was then used to refine and improve the gun over the years and as a result, many derivatives and variants of the M16 have been created, with the fourth generation M16A4 being the latest development.",
+      "damage": "43"
     },
     {
-        "id": 3,
-        "name": "SCAR-L",
-        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-scar-l.png",
-        "damage": "42"
+      "id": "3",
+      "name": "SCAR-L",
+      "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-scar-l.png",
+      "description": "The SCAR-L is an assault rifle type weapon in BATTLEGROUNDS. The SCAR-L is the light variant of the FN SCAR (Special Operations Forces Combat Assault Rifle), a gas-operated short-stroke gas piston automated rifle chambered to a variety of cartridges. It was originally developed by FN Herstal for the United States Special Operations Command (SOCOM) as an entry to the SCAR Competition, a competition to find the new service rifle for SOCOM. As of 2015, the SCAR family of rifles is in service in over 20 countries. In BATTLEGROUNDS, it proves to be a well rounded rifle with a quieter muzzle report and good stability.",
+      "damage": "42"
     },
     {
-        "id": 4,
-        "name": "G36C",
-        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-g36c.png",
-        "damage": "41"
+      "id": "4",
+      "name": "G36C",
+      "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-g36c.png",
+      "description": "The G36C is an assault rifle/carbine type weapon exclusive to Vikendi, replacing the SCAR-L on that map in BATTLEGROUNDS. The G36C's damage per second is lower than its popular 5.56mm brother M416. But it makes up for what it lacks in DPS, with better control especially when engaging your enemies at short to medium range.",
+      "damage": "41"
     },
     {
-        "id": 5,
-        "name": "QBZ95",
-        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-qbz95.png",
-        "damage": "42"
+      "id": "5",
+      "name": "QBZ95",
+      "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-qbz95.png",
+      "description": "The QBZ-95 is a Chinese assault rifle type weapon exclusive to Sanhok, replacing the SCAR-L on that map in BATTLEGROUNDS.",
+      "damage": "42"
     },
     {
-        "id": 6,
-        "name": "K2",
-        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-k2.png",
-        "damage": "41"
+      "id": "6",
+      "name": "K2",
+      "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-k2.png",
+      "description": "The K2 is an assault rifle firing 5.56mm ammunition. It is exclusive to Taego map.",
+      "damage": "41"
     },
     {
-        "id": 7,
-        "name": "AUG",
-        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-aug_a3.png",
-        "damage": "41"
+      "id": "7",
+      "name": "AUG",
+      "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-aug_a3.png",
+      "description": "The Steyr AUG A3 is an assault rifle type weapon in BATTLEGROUNDS. The AUG utilizes the same attachment points and even has the same ballistics as the SCAR-L, albeit with a higher muzzle velocity and slightly increased drag coefficient meaning that bullets fired from this gun will have a slightly more curved trajectory, canceled out by the fact that the bullets travel much faster compared to the SCAR-L. A major drawback of the AUG however is its relatively slow reload time. Its rate of fire is also relatively slow, which allows for better stability but somewhat reduces its capability in close quarters combat.",
+      "damage": "41"
     },
     {
-        "id": 8,
-        "name": "FAMAS",
-        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-famas_g2.png",
-        "damage": "39"
+      "id": "8",
+      "name": "FAMAS",
+      "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-famas_g2.png",
+      "description": "The FAMAS is an assault rifle type weapon in BATTLEGROUNDS. It could only be found in airdrops. Unlike other 5.56 assault rifles, this weapon is designed for close combat fights. Due to its high fire rate there is a high possibility that it would outperform other assualt rifles and SMGs in close range situations.",
+      "damage": "39"
     },
     {
-        "id": 9,
-        "name": "AKM",
-        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-akm.png",
-        "damage": "47"
+      "id": "9",
+      "name": "AKM",
+      "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-akm.png",
+      "description": "The AKM is an assault rifle type weapon in BATTLEGROUNDS. The AKM ('Avtomat Kalashnikova Modernizirovanny', literally 'Modernized Kalashnikov Automatic Rifle') is an improved version of the original AK-47 first developed in 1959, featuring improvements and refinements in manufacturing and materials to create a modernized version of one of the most recognizable firearms known today. Especially popular with freedom fighters, insurgents, and guerrilla forces, in BATTLEGROUNDS its stopping power makes it popular for close-quarters combat.",
+      "damage": "47"
     },
     {
-        "id": 10,
-        "name": "BERYL M762",
-        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-beryl_m762.png",
-        "damage": "44"
+      "id": "10",
+      "name": "BERYL M762",
+      "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-beryl_m762.png",
+      "description": "The Beryl M762 is an assault rifle type weapon in BATTLEGROUNDS. While its outward appearance would imply it being a direct variation of an AK/RPK-pattern rifle, it is actually an export variant of the FB Beryl, with its name bearing the 7.62mm caliber it is chambered for.",
+      "damage": "44"
     },
     {
-        "id": 11,
-        "name": "Mk47 Mutant",
-        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-mk47_mutant.png",
-        "damage": "49"
+      "id": "11",
+      "name": "Mk47 Mutant",
+      "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-mk47_mutant.png",
+      "description": "The Mk47 Mutant is an assault rifle firing 7.62mm ammunition and is specialized for medium-range engagements. With higher base damage and muzzle velocity than the AKM, Beryl M762, or Groza, the Mutant does the most damage per shot of any assault rifle, and is easier to use at long range than its other 7.62mm brethren. However, it also has the smallest magazine size of any assault rifle and lacks a full-auto mode, which makes it more difficult to use in close-quarters engagements.",
+      "damage": "49"
     },
     {
-        "id": 12,
-        "name": "Groza",
-        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-groza.png",
-        "damage": "47"
+      "id": "12",
+      "name": "Groza",
+      "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-groza.png",
+      "description": "The Groza is an assault rifle type weapon in BATTLEGROUNDS. It can only be found in air drops. Essentially a bullpup AKM, its name translates to Thunderstorm or Terror and for good reason - combining the raw stopping power of 7.62mm ammo with a blistering rate of fire only found in the smaller caliber assault rifles.",
+      "damage": "47"
     },
     {
-        "id": 13,
-        "name": "ACE32",
-        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-ace32.png",
-        "damage": "43"
+      "id": "13",
+      "name": "ACE32",
+      "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-ace32.png",
+      "description": "The ACE32 is an assault rifle using 7.62mm ammunition and is capable of firing in full-auto mode. This attachment-friendly weapon is considered easier to tame than the Beryl M762.",
+      "damage": "43"
     }
-],
-"DesignatedMarksmanRifle": [
+  ],
+  "DesignatedMarksmanRifle": [
     {
-        "id": 14,
-        "name": "Mini14",
-        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-mini14.png",
-        "damage": "48"
+      "id": "14",
+      "name": "Mini14",
+      "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-mini14.png",
+      "description": "The Mini 14 is a DMR type weapon in BATTLEGROUNDS. A lightweight semi-automatic rifle, the Ruger Mini-14 is named so due to its resemblance as a smaller version of the M14 battle rifle. Popular with law enforcement, security personnel, hunters, ranchers and target shooters, it now sees use in picking off opponents at a distance in BATTLEGROUNDS.",
+      "damage": "48"
     },
     {
-        "id": 15,
-        "name": "QBU",
-        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-qbu88.png",
-        "damage": "48"
+      "id": "15",
+      "name": "QBU",
+      "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-qbu88.png",
+      "description": "The QBU is a Chinese bullpup designated marksman that fits the theme/location of the Sanhok and replaces the Mini14 from there. The rifle features a bipod that deploys upon proning. When deployed, the bipod significantly reduces the recoil when shooting.",
+      "damage": "48"
     },
     {
-        "id": 16,
-        "name": "Mk12",
-        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-mk12.png",
-        "damage": "50"
+      "id": "16",
+      "name": "Mk12",
+      "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-mk12.png",
+      "description": "The Mk12 is a DMR type weapon in BATTLEGROUNDS. It is firing 5.56mm ammunition. The Mk12 is a hard-hitting, high-velocity 5.56mm caliber DMR previously exclusive to Taego, but now available on all maps.",
+      "damage": "50"
     },
     {
-        "id": 17,
-        "name": "SKS",
-        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-sks.png",
-        "damage": "53"
+      "id": "17",
+      "name": "SKS",
+      "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-sks.png",
+      "description": "The SKS ('Samozaryadny Karabin Simonova') is a designated marksman rifle, being a middle ground between a typical assault rifle and a sniper rifle. Thus, this rifle excels in medium-range combat and packs devastating stopping power if a user can handle this gun effectively in close-quarter combat, but will be less effective in long- to extreme-combat as it lacks the precision of dedicated sniper rifles. Nevertheless this gun has the benefit of accepting the most attachments out of all the sniper rifles.",
+      "damage": "53"
     },
     {
-        "id": 18,
-        "name": "SLR",
-        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-slr.png",
-        "damage": "56"
+      "id": "18",
+      "name": "SLR",
+      "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-slr.png",
+      "description": "The SLR (Self Loading Rifle), is a DMR type weapon in BATTLEGROUNDS. A semi-automatic British rifle with its 7.62mm cartridge it is chambered for delivers great stopping power at long distances in a moderately stable and accurate package, and has seen usage amongst various military forces across the globe for more than 50 years.",
+      "damage": "56"
     },
     {
-        "id": 19,
-        "name": "Mk14",
-        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-mk14.png",
-        "damage": "61"
+      "id": "19",
+      "name": "Mk14",
+      "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-mk14.png",
+      "description": "The Mk14 EBR (Mark 14 Enhanced Battle Rifle) is a DMR type weapon in BATTLEGROUNDS and can only be found in air drops. Originally built for US special operations units, this rifle has seen widespread use within the US military, owing to its full-power 7.62x51mm cartridge and proven reliability. In BATTLEGROUNDS, it sees use as a hard hitting long range rifle for putting down targets for anyone lucky enough to come across this weapon in an air drop.",
+      "damage": "61"
     },
     {
-        "id": 20,
-        "name": "VSS",
-        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-vss.png",
-        "damage": "43"
+      "id": "20",
+      "name": "VSS",
+      "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-vss.png",
+      "description": "The VSS Vintorez (Vintovka Snayperskaya Spetsialnaya) is a special sniper/DMR-type suppressed weapon in BATTLEGROUNDS. Chambered for a proprietary 9x39mm subsonic cartridge (the in-game version using common 9mm ammo) and used primarily by Spetsnaz forces for clandestine operations, in BATTLEGROUNDS it proves to be a stealthy killer against targets of opportunity.",
+      "damage": "43"
     },
     {
-        "id": 21,
-        "name": "Dragunov",
-        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-dragunov.png",
-        "damage": "60"
+      "id": "21",
+      "name": "Dragunov",
+      "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-dragunov.png",
+      "description": "The Dragunov (SVD, 'Snayperskaya Vintovka Dragunova') is a semi-automatic designated marksman rifle chambered in the 7.62 cartridge, developed in the Soviet Union. It provides extremely lethal damage, but as for downsides, it has the lowest fire rate among all the DMRs.",
+      "damage": "67"
     }
-],
-"SubMachineGuns": [
+  ],
+  "SubMachineGuns": [
     {
-        "id": 22,
-        "name": "Tommy Gun",
-        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-tommy_gun.png",
-        "damage": "40"
+      "id": "22",
+      "name": "Tommy Gun",
+      "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-tommy_gun.png",
+      "description": "The Tommy Gun is a submachine gun type weapon in BATTLEGROUNDS. Nicknamed 'The Chicago Typewriter', The Thompson submachine gun is an American submachine gun, invented by John T. Thompson in 1918, that became infamous during the prohibition era. It was a common sight in the media of the time, being used by both law enforcement officers and criminals. Once in extensive use among US troops during WWII, as well as British forces supplied by the US Army, this weapon now sees use for mowing down other players unfortunate enough to be caught in its line of fire.",
+      "damage": "40"
     },
     {
-        "id": 23,
-        "name": "UMP45",
-        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-ump45.png",
-        "damage": "41"
+      "id": "23",
+      "name": "UMP45",
+      "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-ump45.png",
+      "description": "The UMP45 is a submachine gun type weapon in BATTLEGROUNDS.The Universal Machine Pistol is a submachine gun designed by Heckler & Koch. It is the successor to the MP5, though both are in service to this day. Widely adopted by police and governmental agencies, with wide adoption specifically amongst the U.S. Customs and Border Protection agency, it also sees popularity with players as an well-rounded, balanced SMG with manageable recoil and decent firepower.",
+      "damage": "41"
     },
     {
-        "id": 24,
-        "name": "Micro UZI",
-        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-micro_uzi.png",
-        "damage": "26"
+      "id": "24",
+      "name": "Micro UZI",
+      "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-micro_uzi.png",
+      "description": "The Micro UZI is a submachine gun type weapon in BATTLEGROUNDS. A scaled down version of the original Israeli submachine gun designed by Major Uziel Gal in the early 1950s, first introduced in 1986 and exported to over 90 countries, it still sees active use in various conflicts around the world. The Micro Uzi has had its stock removed, the magazine shortened, and the barrel reduced to almost pistol length. This results in a more compact, lightweight weapon, with a reduction in accuracy and range.",
+      "damage": "26"
     },
     {
-        "id": 25,
-        "name": "Vector",
-        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-vector.png",
-        "damage": "31"
+      "id": "25",
+      "name": "Vector",
+      "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-vector.png",
+      "description": "The Vector is a submachine gun type weapon in BATTLEGROUNDS. It uses an unconventional delayed blowback system to mitigate recoil, making it easier to control automatic fire at close ranges. With its low recoil and average damage it is most useful in close to mid-range combat. Boasting a very high rate of fire and low recoil, this gun also has the benefit of having the most attachment slots of all the SMGs to further increase its performance.",
+      "damage": "31"
     },
     {
-        "id": 26,
-        "name": "PP-19 Bizon",
-        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-pp19_bizon.png",
-        "damage": "36"
+      "id": "26",
+      "name": "PP-19 Bizon",
+      "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-pp19_bizon.png",
+      "description": "The PP-19 Bizon is a submachine gun type weapon in BATTLEGROUNDS. Because of the unique helical magazine that runs along the barrel, this SMG doesn't support magazine upgrades or lower rail attachments. However, the weapon has high firing stability built-in, which allows for low recoil even without a grip. With only a muzzle and sight attachment to add it becomes a reliable short-range weapon in your hands faster than ever before.",
+      "damage": "36"
     },
     {
-        "id": 27,
-        "name": "MP5K",
-        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-mp5k.png",
-        "damage": "33"
+      "id": "27",
+      "name": "MP5K",
+      "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-mp5k.png",
+      "description": "The MP5K is a submachine gun type weapon exclusive to Vikendi, replacing the Vector on that map in BATTLEGROUNDS. It is chambered for 9mm ammunition. While the firing mechanics of the MP5K are similar to the Vector, it boasts a higher per bullet damage, but with a lower overall firing rate and DPS.",
+      "damage": "33"
     },
     {
-        "id": 28,
-        "name": "MP9",
-        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-mp9.png",
-        "damage": "31"
+      "id": "28",
+      "name": "MP9",
+      "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-mp9.png",
+      "description": "The MP9 (Maschinenpistole, German for 'machine pistol') is a submachine gun chambered for the 9mm cartridge that is designed and manufactured by Brügger & Thomet. This gun is exclusive for Deston. Provides both high DPS and precision, making it a highly rated weapon in the game.",
+      "damage": "31"
     },
     {
-        "id": 29,
-        "name": "P90",
-        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-p90.png",
-        "damage": "35"
+      "id": "29",
+      "name": "P90",
+      "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-p90.png",
+      "description": "The P90 is a submachine gun type weapon in BATTLEGROUNDS. It can only be found in air drops. The P90 comes loaded with its own unique 5.7mm high powered ammo, which is capable of longer-range combat, unlike other SMGs. It also comes with a cheek pad, handguard, laser, and silencer pre-attached and non-detachable. It also features dual optics that allow for fast switching between close-range and medium-range combat.",
+      "damage": "35"
     },
     {
-        "id": 30,
-        "name": "JS9",
-        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-js9.png",
-        "damage": "32"
+      "id": "30",
+      "name": "JS9",
+      "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-js9.png",
+      "description": "The JS9 is a submachine gun type weapon in BATTLEGROUNDS. Also known as the CS/LS2, it is a suppressed submachine gun developed by the Jianshe Industries Corporation of Chongqing. Exclusive to Rondo and replaces Vector.",
+      "damage": "32"
     }
-],
-"SniperRifles": [
+  ],
+  "SniperRifles": [
     {
-        "id": 31,
-        "name": "Kar98k",
-        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-kar98k.png",
-        "damage": "79"
+      "id": "31",
+      "name": "Kar98k",
+      "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-kar98k.png",
+      "description": "The Karabiner 98 Kurz (Kar98k) is a classic bolt-action rifle weapon in BATTLEGROUNDS. The Karabiner 98 Kurz is the shortened derivative of the Mauser 98 chambered in 7.92x57mm Mauser. Adopted by the German Wehrmacht in 1935, it is considered to be the pinnacle of bolt action design of that era. The Mauser action has been nearly universally copied in every bolt action rifle since its introduction.",
+      "damage": "79"
     },
     {
-        "id": 32,
-        "name": "Mosin Nagant",
-        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-mosin_nagant.png",
-        "damage": "79"
+      "id": "32",
+      "name": "Mosin Nagant",
+      "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-mosin_nagant.png",
+      "description": "The Mosin Nagant is a classic bolt-action rifle weapon in BATTLEGROUNDS. The Mosin-Nagant's stats are similar to the Karabiner 98 Kurz, so it boils down to preference of the player.",
+      "damage": "79"
     },
     {
-        "id": 33,
-        "name": "M24",
-        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-m24.png",
-        "damage": "75"
+      "id": "33",
+      "name": "M24",
+      "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-m24.png",
+      "description": "The M24 Sniper Weapon System is the military and police version of the Remington Model 700 rifle, M24 being the model name assigned by the United States Army after adoption as their standard sniper rifle in 1988. The M24 is referred to as a 'weapon system' because it consists of not only a rifle, but also a detachable telescopic sight and other accessories.",
+      "damage": "75"
     },
     {
-        "id": 34,
-        "name": "AWM",
-        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-awm.png",
-        "damage": "105"
+      "id": "34",
+      "name": "AWM",
+      "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-awm.png",
+      "description": "The AWM, or Accuracy International Arctic Warfare Magnum, designated as the L115 by the British Armed Forces, is a bolt-action sniper rifle. It was built on the older L96 frame, and was designed specifically for extensibility and ease of service. The AWM is a magnum rifle, chambered typically for the .300 Winchester Magnum or the .338 Lapua Magnum. Because of this round, it has ridiculous stopping power over a very far range, and with slow reload times to balance this beast of a sniper rifle.",
+      "damage": "105"
     },
     {
-        "id": 35,
-        "name": "Win94",
-        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-win94.png",
-        "damage": "66"
+      "id": "35",
+      "name": "Win94",
+      "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-win94.png",
+      "description": "The Winchester Model 1894 (Win94) is an exclusive lever-action repeating rifle on the map Miramar, Sanhok and Deston in BATTLEGROUNDS. The Winchester Model 1894 is known to be a famous hunting rifle but in BATTLEGROUNDS , the Win94 is categorized as a sniper rifle.",
+      "damage": "66"
     },
     {
-        "id": 36,
-        "name": "Lynx AMR",
-        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-lynx_amr.png",
-        "damage": "118"
+      "id": "36",
+      "name": "Lynx AMR",
+      "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-lynx_amr.png",
+      "description": "The Lynx AMR is a semi-automatic sniper rifle type weapon in BATTLEGROUNDS. It can only be found in air drops. The Lynx AMR is PUBG's first Anti-Materiel Rifle, a semi-automatic crate gun capable of damaging military equipment and armor, in addition to players and vehicles. Intended as a hard counter to vehicles, it deals extra damage to all transport sources.",
+      "damage": "118"
     }
-],
-"Shotgun": [
+  ],
+  "Shotgun": [
     {
-        "id": 37,
-        "name": "S12K",
-        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-s12k.png",
-        "damage": "24"
+      "id": "37",
+      "name": "S12K",
+      "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-s12k.png",
+      "description": "The Saiga-12K (referred to as the S12K in-game) is a shotgun in BATTLEGROUNDS. A semi-automatic, magazine fed 12-gauge shotgun, it is able to lay down an obscene amount of damage over a wide area since it doesn't need to be manually cycled between shots.",
+      "damage": "24"
     },
     {
-        "id": 38,
-        "name": "S1897",
-        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-s1897.png",
-        "damage": "26"
+      "id": "38",
+      "name": "S1897",
+      "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-s1897.png",
+      "description": "The S1897 is a shotgun type weapon in BATTLEGROUNDS. The Winchester Model 1897 'Trench Gun' (simply called the S1897 in-game) was designed by John Moses Browning. More than a million have been produced during its service era, used in conflicts from the Philippine-American War all the way through to the Gulf War. Typically chambered for 12 and 16 gauge, the in-game iteration is chambered solely for 12 gauge shotshell. Since its introduction in 1897 it has seen usage with military, law enforcement and hunters due to its effectiveness in close range combat, and now sees usage within BATTLEGROUNDS as a common shotgun.",
+      "damage": "26"
     },
     {
-        "id": 39,
-        "name": "S686",
-        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-s686.png",
-        "damage": "26"
+      "id": "39",
+      "name": "S686",
+      "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-s686.png",
+      "description": "The S686 is a shotgun type weapon in BATTLEGROUNDS. The S686 is a sporting variant of the Beretta 686 'Silver Pigeon', a competition-grade over-under style double-barreled shotgun commonly used among American clay pigeon shooters. In BATTLEGROUNDS, it is a relatively common hunting gun used primarily to put down players early in the game before more powerful weapons are found.",
+      "damage": "26"
     },
     {
-        "id": 40,
-        "name": "DBS",
-        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-dbs.png",
-        "damage": "26"
+      "id": "40",
+      "name": "DBS",
+      "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-dbs.png",
+      "description": "The DP-12 (referred to as the DBS in-game) is a double barrel pump-action bullpup shotgun in BATTLEGROUNDS. A bullpup style shotgun that can hold up to 14 shells of 12 Gauge lethality, it has by far the largest damage potential of any shotgun available in the game, countered by the fact that reloading that many shells will take an obscene amount of time. The DBS has a unique method of firing in that the pump is racked after every two shells fired, chambering the next two, making it excellent for dealing burst damage by peeking in and out of cover with each shot. Being a shotgun, the DBS is best used in close quarters combat situations.",
+      "damage": "26"
     },
     {
-        "id": 41,
-        "name": "Sawed-Off",
-        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-sawed_off.png",
-        "damage": "21"
+      "id": "41",
+      "name": "Sawed-Off",
+      "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-sawed_off.png",
+      "description": "The Sawed-off is an exclusive shotgun type weapon that fits in handgun slot. The smallest shotgun available in the game, the Sawed-off functions like a pocket S686, albeit with higher spread due to the short barrel. It has two barrels, side-by-side, and as such can hold two rounds. Like the S686, it can quickly fire off both barrels to quickly do a lot of damage.",
+      "damage": "21"
     },
     {
-        "id": 42,
-        "name": "O12",
-        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-o12.png",
-        "damage": "100"
+      "id": "42",
+      "name": "O12",
+      "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-o12.png",
+      "description": "The Origin 12 Shotgun is a semi-automatic shotgun featured in BATTLEGROUNDS. Developed by Fostech Outdoors, the gun has been noted for its very high rate of fire. Like the Saiga-12 and Vepr-12, the Origin 12 is primarily based on the AK action. Exclusive to Deston.",
+      "damage": "100"
     }
-],
-"Handgun": [
+  ],
+  "Handgun": [
     {
-        "id": 43,
-        "name": "P18C",
-        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-p18c.png",
-        "damage": "23"
+      "id": "43",
+      "name": "P18C",
+      "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-p18c.png",
+      "description": "The P18C (aka Glock 18C) is a pistol type weapon in BATTLEGROUNDS. The P18C is an automatic secondary because of its lowest damage among other pistols in the game. Despite this, it actually boasts the highest damage per second of all the pistols, even rivaling submachine guns in terms of utility.",
+      "damage": "23"
     },
     {
-        "id": 44,
-        "name": "P92",
-        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-p92.png",
-        "damage": "34"
+      "id": "44",
+      "name": "P92",
+      "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-p92.png",
+      "description": "The P92 is a pistol type weapon in BATTLEGROUNDS. Originally designed in 1972, the Beretta 92FS (simply called the P92 in-game) is still in production today. The United States, while still using the M1911 in certain applications, adopted the Model 92 in 1985 to replace the standard Model 1911A1 .45 ACP variant, the replacement designated as the M9.",
+      "damage": "34"
     },
     {
-        "id": 45,
-        "name": "Skorpion",
-        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-skorpion.png",
-        "damage": "22"
+      "id": "45",
+      "name": "Skorpion",
+      "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-skorpion.png",
+      "description": "The Skorpion is a machine pistol type weapon in BATTLEGROUNDS, produced under the official designation 'Samopal vzor 61' (submachine gun model 1961). A full-sized machine pistol that occupies the sidearm slot, the Skorpion is very controllable for such a weapon, even when fired in full auto. With a 20 round magazine as standard and capable of being increased to 40, it can serve as a dependable pocket SMG to free up the other weapon slots for more powerful guns.",
+      "damage": "22"
     },
     {
-        "id": 46,
-        "name": "P1911",
-        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-p1911.png",
-        "damage": "42"
+      "id": "46",
+      "name": "P1911",
+      "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-p1911.png",
+      "description": "The M1911A1 (called the P1911 in-game) is a pistol type weapon in BATTLEGROUNDS. The P1911 is a sidearm chambered for the slow but heavy hitting .45 ACP round. Originally designed in 1911 by John Moses Browning, its popularity with special forces groups and civilian shooters throughout the decades is testament to its fame and reputation as a reliable and powerful pistol.",
+      "damage": "42"
     },
     {
-        "id": 47,
-        "name": "R45",
-        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-r45.png",
-        "damage": "64"
+      "id": "47",
+      "name": "R45",
+      "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-r45.png",
+      "description": "The R45 a pistol type weapon exclusive to Miramar, replacing the R1895 on that map in BATTLEGROUNDS. The Rhino 60DS (simply called the R45 in-game) is a sturdy, innovative 6-shooter from Italy, firing powerful .45 caliber cartridges. Like the R1895 it replaces, it is much more powerful per shot than any other handgun but has a relatively small ammunition capacity and a somewhat average rate of fire.",
+      "damage": "64"
     },
     {
-        "id": 48,
-        "name": "Deagle",
-        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-deagle.png",
-        "damage": "62"
+      "id": "48",
+      "name": "Deagle",
+      "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-deagle.png",
+      "description": "The Deagle (also known as 'Desert Eagle') is a pistol type weapon in BATTLEGROUNDS. The Deagle is a high damage up-close-and-personal weapon, but with the Laser Sight attached it can have a boost to its hipfire accuracy. Compared to its counterparts this pistol has a higher than average muzzle recoil, energy and velocity.",
+      "damage": "62"
     },
     {
-        "id": 49,
-        "name": "R1895",
-        "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-r1895.png",
-        "damage": "64"
+      "id": "49",
+      "name": "R1895",
+      "image": "https://wstatic-prod.pubg.com/web/live/static/game-info/weapons/images/viewer/img-weapons-r1895.png",
+      "description": "The Nagant M1895 (simply called the R1895 in-game) is a pistol type weapon in BATTLEGROUNDS. The R1895 is a seven-shot revolver originally issued to members and combatants of the Russian Empire. The gun solves the issue of reduced muzzle velocities found on conventional revolvers caused by escaping gas, with a unique gas-seal system, making it one of the few revolvers in the world that can be reliably suppressed with the usage of the proprietary ammunition.",
+      "damage": "64"
     }
-],
-"Calculator": [
+  ],
+  "Calculator": [
     {
-        "id": 50,
-        "name": "figure",
-        "image": "https://battlegrounds.party/weapons/img/figure.png"
+      "id": "50",
+      "name": "figure",
+      "image": "https://battlegrounds.party/weapons/img/figure.png"
     },
     {
-        "id": 51,
-        "name": "helmet 0",
-        "image": "https://battlegrounds.party/weapons/img/Gray_cross_out.svg",
-        "reduction": 0
+      "id": "51",
+      "name": "helmet 0",
+      "image": "https://battlegrounds.party/weapons/img/Gray_cross_out.svg",
+      "reduction": 0
     },
     {
-        "id": 52,
-        "name": "helmet 1",
-        "image": "https://pubgmobileknowhow.home.blog/wp-content/uploads/2018/09/helm-1.png",
-        "reduction": 30
+      "id": "52",
+      "name": "helmet 1",
+      "image": "https://pubgmobileknowhow.home.blog/wp-content/uploads/2018/09/helm-1.png",
+      "reduction": 30
+    },
+    {
+      "id": "53",
+      "name": "helmet 2",
+      "image": "https://pubgmobileknowhow.home.blog/wp-content/uploads/2018/09/helm-2.png",
+      "reduction": 40
+    },
+    {
+      "id": "54",
+      "name": "helmet 3",
+      "image": "https://pubgmobileknowhow.home.blog/wp-content/uploads/2018/09/helm-3.png",
+      "reduction": 55
+    },
+    {
+      "id": "55",
+      "name": "armor 0",
+      "image": "https://battlegrounds.party/weapons/img/Gray_cross_out.svg",
+      "reduction": 0
+    },
+    {
+      "id": "56",
+      "name": "armor 1",
+      "image": "https://pubgmobileknowhow.home.blog/wp-content/uploads/2018/09/vest-lv11.png",
+      "reduction": 30
+    },
+    {
+      "id": "57",
+      "name": "armor 2",
+      "image": "https://pubgmobileknowhow.home.blog/wp-content/uploads/2018/09/vest-2.png",
+      "reduction": 40
+    },
+    {
+      "id": "58",
+      "name": "armor 3",
+      "image": "https://pubgmobileknowhow.home.blog/wp-content/uploads/2018/09/vest-3.png",
+      "reduction": 55
     }
-    ,{
-        "id": 53,
-        "name": "helmet 2",
-        "image": "https://pubgmobileknowhow.home.blog/wp-content/uploads/2018/09/helm-2.png",
-        "reduction": 40
+  ],
+  "users": [
+    {
+      "id": "7dff",
+      "username": "Alex",
+      "password": "bug"
     },
     {
-        "id": 54,
-        "name": "helmet 3",
-        "image": "https://pubgmobileknowhow.home.blog/wp-content/uploads/2018/09/helm-3.png",
-        "reduction": 55
+      "id": "06e8",
+      "username": "Alexa",
+      "password": "bagula"
     },
     {
-        "id": 55,
-        "name": "armor 0",
-        "image": "https://battlegrounds.party/weapons/img/Gray_cross_out.svg",
-        "reduction": 0
+      "id": "33df",
+      "username": "cide",
+      "password": "123"
     },
     {
-        "id": 56,
-        "name": "armor 1",
-        "image": "https://pubgmobileknowhow.home.blog/wp-content/uploads/2018/09/vest-lv11.png",
-        "reduction": 30
+      "id": "76ad",
+      "username": "Alex",
+      "password": "fefew"
     },
     {
-        "id": 57,
-        "name": "armor 2",
-        "image": "https://pubgmobileknowhow.home.blog/wp-content/uploads/2018/09/vest-2.png",
-        "reduction": 40
+      "id": "753d",
+      "username": "Alex",
+      "password": "bgl"
     },
     {
-        "id": 58,
-        "name": "armor 3",
-        "image": "https://pubgmobileknowhow.home.blog/wp-content/uploads/2018/09/vest-3.png",
-        "reduction": 55
+      "id": "9ad9",
+      "username": "wdwq",
+      "password": "qwdqw"
     }
-]}
+  ]
+}

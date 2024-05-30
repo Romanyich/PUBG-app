@@ -19,3 +19,8 @@
     background-color: var(--button_color);
     text-decoration: none;
 }
+
+.nav_link.active {
+    background-color: var(--weapon_type_color);
+    color: var(--active_text_color);
+}

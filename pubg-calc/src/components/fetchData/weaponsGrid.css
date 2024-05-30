@@ -1,11 +1,14 @@
 .weapon_cell {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 16px;
-    padding: 16px;
+    gap: 15px;
+    padding: 15px;
     position: absolute;
-    top: 10%;
+    top: 150px;
+    left: 0;
+    max-width: 100%;
     z-index: 2;
+    background-color: var(--container_background_color);
     backdrop-filter: blur(5px);
 }
 
@@ -17,7 +20,7 @@
     background-color: var(--cell_background);
     border: 1px solid var(--cell_border);
     border-radius: 8px;
-    padding: 16px;
+    padding: 15px;
     text-align: center;
     transition: transform 0.3s;
 }

@@ -1,8 +1,7 @@
 .weapons {
     position: relative;
-    height: 2160px;
-    background-image: url('./doubled_back.jpg');
-    background-color: var(--background_color);
+    height: 540px;
+    background-image: url('./back.jpg');
     background-size: cover;
     background-position: center;
     background-repeat:no-repeat;
@@ -28,6 +27,12 @@
     transition: background-color 0.3s;
 }
 
-a:hover {
+.weapon_type.active {
+    background-color: var(--weapon_type_color);
+    color: var(--active_text_color);
+    text-decoration: underline;
+}
+
+a:hover{
     color: var(--hover_effect);
 }

@@ -1,12 +1,12 @@
 import { useState, useEffect } from 'react'
-import './fetchData.css'
+import './weaponsGrid.css'
 import Modal from '../modal/modal'
 
 interface IWeapon {
     id: number;
     name: string;
     image: string;
-    description: string
+    description: string;
 }
 
 interface FetchDataProps {
